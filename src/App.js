@@ -10,7 +10,9 @@ import Footer from './components/Footer.js'
 
 const App = () => {
     return (
-        <Box width="400px">
+        //with sx we make sure this website is responsive on larger devices.
+        //with m="auto" we set margin to auto
+        <Box width="400px" sx = {{width: {xl: '1488'}}} m="auto">
             <Navbar/>
                 <Routes>
                     <Route path = "/" element={<Home/>}/>

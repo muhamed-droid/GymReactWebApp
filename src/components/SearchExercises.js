@@ -6,12 +6,33 @@ const SearchExercises = () => {
 
     const [search, setSearch] = useState('');
 
+    const [exercises, setExercises] = useState([]);
+
+    const [bodyParts, setBodyParts] = useState([]);
+
     //This function is gone take some time, and some data from API
+    useEffect(() => {
+        const fetchExercisesData = async () => {
+            const bodyPartsData = await fetchData
+            ('https://exercisedb.p.rapidapi.com/exercises/bodyPartList', exerciseOptions);
+            setBodyParts(['all', ...bodyPartsData]);
+            }
+            fetchExercisesData();
+    }, [])
+
     const handleSearch = async () => {
         if(search) {
             const exercisesData = await fetchData
             ('https://exercisedb.p.rapidapi.com/exercises', exerciseOptions);
             //Exercise options authorize us to make request, because we added our own API key
+            const searchedExercises = exercisesData.filter(
+                (exercise) => exercise.name.toLowerCase().includes(search)
+                    || exercise.target.toLowerCase().includes(search)
+                    || exercise.equipment.toLowerCase().includes(search)
+                    || exercise.bodyPart.toLowerCase().includes(search)
+            );
+            setSearch('');
+            setExercises(searchedExercises);
         }
     }
 

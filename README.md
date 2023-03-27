@@ -68,3 +68,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+This is a simple Fitness Club website. Its purpose is to practice frontend and backand web app developement. When user open the app, there is a cute looking Homepage that looks like this:  
+![image](https://user-images.githubusercontent.com/63816826/227920784-46c89beb-99e8-442b-b394-631cdf6ee8f9.png)
+

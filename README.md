@@ -71,5 +71,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 This is a simple Fitness Club website. Its purpose is to practice frontend and backand web app developement. When user open the app, there is a cute looking Homepage that looks like this:  
-![image](https://user-images.githubusercontent.com/63816826/227920784-46c89beb-99e8-442b-b394-631cdf6ee8f9.png)
+![image](https://user-images.githubusercontent.com/63816826/227925020-5e7762fe-4c1a-4970-a73b-469b94124787.png)
+Below that, the types of exercises are listed in the cards like this: 
+![image](https://user-images.githubusercontent.com/63816826/227925087-ec31e21d-188f-4d0f-8978-53399483799a.png)
+By clicking on the tab, users are shown a section where the results for that specific exercise are displayed.
+![image](https://user-images.githubusercontent.com/63816826/227923534-e13159bc-8799-46d4-8e2c-01ec49462bac.png)
+By cliking on one exercise, a detailed description of the exercise opens, and below there are links to YouTube videos and a list of similar exercises.
+![image](https://user-images.githubusercontent.com/63816826/227924595-0bc4da17-3d62-40fe-8f5e-e7aad860bd4a.png)
+![image](https://user-images.githubusercontent.com/63816826/227924655-2132ca6a-513c-4211-901a-54ac616285f2.png)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ExerciseDB API Documentation from RapidAPI is used for data. 
+
+Muhamed Masnopita
+
+
+
 

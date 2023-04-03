@@ -14,6 +14,9 @@ export const youtubeOptions = {
     },
 };
 
+//The function makes a fetch request to the specified URL
+// with the provided options, waits for the response,
+// and then returns the parsed JSON data.
 export const fetchData = async (url, options) => {
     const res = await fetch(url, options);
     const data = await res.json();

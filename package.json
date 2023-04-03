@@ -36,10 +36,9 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ],
-    "engines" : {
-      "npm" : ">=8.0.0 <10.0.0",
-      "node" : ">=16.0.0 <18.15.0"
-    }
+    ]
+  }, "engines" : {
+  "npm" : ">=8.0.0 <10.0.0",
+  "node" : ">=16.0.0 <18.15.0"
   }
 }

@@ -8,6 +8,8 @@ import ExerciseVideos from '../components/ExerciseVideos';
 import SimilarExercises from '../components/SimilarExercises';
 
 const ExerciseDetail = () => {
+    //The purpose of these state variables is to keep track of data within
+    // the component and allow the component to update the UI when the state changes.
     const [exerciseDetail, setExerciseDetail] = useState({});
     const [exerciseVideos, setExerciseVideos] = useState([]);
     const [targetMuscleExercises, setTargetMuscleExercises] = useState([]);

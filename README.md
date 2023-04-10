@@ -1,5 +1,4 @@
 **#Hello everyone. Welcome to my readme!**
-Web app is deployed on this website:https://183abb1b.muhamedgym.pages.dev/ 
 App is responsive, so that can be accessed from a desktop, mobile, or any interface.
 
 # Getting Started with Create React App
